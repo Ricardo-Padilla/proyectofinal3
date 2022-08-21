@@ -1,0 +1,19 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "description": "sistema web para administracion de rh",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ricardo-Padilla/proyectofinal3.git"
+  },
+  "author": "Ricardo Padilla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ricardo-Padilla/proyectofinal3/issues"
+  },
+  "homepage": "https://github.com/Ricardo-Padilla/proyectofinal3#readme"
+}
