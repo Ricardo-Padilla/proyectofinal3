@@ -1,0 +1,73 @@
+$fontcolor: #CCF9FF;
+@mixin fontstyle {
+    color: $fontcolor;
+    font-weight: bolder;
+}
+h1{
+    @include fontstyle;
+    padding-left: 25px;
+    margin-top: 250px;
+}
+h2{
+    @include fontstyle;
+    padding-left: 25px;
+}
+body{
+    background-image: url(img/hrnews.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 20px;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    margin-left: 150px;
+        div{
+            padding: 10px;
+        }
+}
+@media (max-width: 500px) {
+    .grid1 {
+    grid-template-columns: auto;
+    margin: 0;
+    }
+}
+h3{
+    @include fontstyle;
+    text-align: center;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    padding: 100px;
+}
+@media (max-width: 500px) {
+    .grid2 {
+    grid-template-columns: auto;
+    margin: 0;
+    }
+    .grid2 div{
+    margin: 20px;
+    }
+}
+.grid3{
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: 300px;
+    justify-content: center;
+    padding: 20px;
+}
+.col-md-4{
+    color: white;
+}
+.col-md-6{
+    color: white;
+}
+.col-md-3{
+    color: white;
+}
+.col-12{
+    color: white;
+}
