@@ -1,29 +1,25 @@
 h1 {
-  color: #CCF9FF;
+  color: #06709B;
   font-weight: bolder;
-  padding-left: 25px;
-  margin-top: 250px;
+  padding-left: 200px;
+  margin-top: 100px;
 }
 
 h2 {
-  color: #CCF9FF;
+  color: #06709B;
   font-weight: bolder;
-  padding-left: 25px;
+  padding-left: 200px;
 }
 
 body {
-  background-image: url(img/hrnews.png);
-  background-position: center;
+  background-image: linear-gradient(to bottom, cadetblue, white);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  margin: 20px;
 }
 
 .grid1 {
   display: grid;
   grid-template-columns: 200px 200px;
-  margin-left: 150px;
+  margin-left: 200px;
 }
 .grid1 div {
   padding: 10px;
@@ -32,11 +28,11 @@ body {
 @media (max-width: 500px) {
   .grid1 {
     grid-template-columns: auto;
-    margin: 0;
+    margin-left: 200px;
   }
 }
 h3 {
-  color: #CCF9FF;
+  color: #06709B;
   font-weight: bolder;
   text-align: center;
 }
@@ -65,17 +61,40 @@ h3 {
 }
 
 .col-md-4 {
-  color: white;
+  color: #06709B;
 }
 
 .col-md-6 {
-  color: white;
+  color: #06709B;
 }
 
 .col-md-3 {
-  color: white;
+  color: #06709B;
 }
 
 .col-12 {
-  color: white;
+  color: #06709B;
+}
+
+.navbar {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.grid4 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+@media (max-width: 500px) {
+  .grid4 {
+    grid-template-columns: auto;
+    margin-left: 200px;
+  }
+}
+h5 {
+  color: #06709B;
+  font-weight: bolder;
 }/*# sourceMappingURL=style.css.map */
